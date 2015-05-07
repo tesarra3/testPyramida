@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:tools="http://schemas.android.com/tools"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:paddingLeft="@dimen/activity_horizontal_margin"
+				android:paddingRight="@dimen/activity_horizontal_margin"
+				android:paddingTop="@dimen/activity_vertical_margin"
+				android:paddingBottom="@dimen/activity_vertical_margin"
+				tools:context=".MainActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal">
+		<TextView
+			android:text="Test"
+
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+
+		<TextView
+			android:text="Očekávání"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal">
+		<TextView
+			android:text="@string/hello_world"
+			android:id="@+id/final_number"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+
+		<TextView
+			android:text="353"
+			android:id="@+id/control_text"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+
+		</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal">
+		<Button
+			android:text="Prepared my"
+			android:id="@+id/test_button"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+
+		<Button
+			android:text="Random my"
+			android:id="@+id/random_button"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal">
+		<Button
+			android:text="Prepared Naive"
+			android:id="@+id/their_button"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+
+		<Button
+			android:text="Set control"
+			android:id="@+id/your_control_button"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/result"
+		android:gravity="center"
+		android:textSize="50dp"
+		/>
+
+
+
+
+</LinearLayout>
